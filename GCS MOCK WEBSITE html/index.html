@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GCS Website</title>
+</head>
+
+<!-- header --> 
+<body style="background-color: white; text-align: center; font-family: sans-serif;">
+  
+<nav style="background-color: #384932; padding: 10px 0; text-align: center; position: fixed; top: 0; left: 0; width: 100%; z-index: 100;">
+    <ul style="list-style-type: none; padding: 0; margin: 0; display: inline-block;">
+        <li style="display: inline; margin: 0 15px;">
+            <a href="index.html" style="color: white; text-decoration: none;">Home</a>
+        </li>
+        <li style="display: inline; margin: 0 15px;">
+            <a href="services.html" style="color: white; text-decoration: none;">Services</a>
+        </li>
+        <li style="display: inline; margin: 0 15px;">
+            <a href="contact.html" style="color: white; text-decoration: none;">Contact</a>
+        </li>
+    </ul>
+</nav>
+
+
+<!-- the images -->
+
+  <div style="padding-top: 70px;">
+        <img src="https://assets.onecompiler.app/43e8whwtk/43e8wgypy/logo.png" alt="Company Logo" width="100" height="100" style="position: fixed; top: 10px; left: 10px; z-index: 101;">
+        <img src="https://assets.onecompiler.app/43e8whwtk/43e8wgypy/front%20of%20website.png" alt="Banner" width="500" height="300" style= "display: inline-block; opacity: 0;">
+
+<!-- the main text -->
+
+    <h1 style="color: darkgreen; font-family: Helvetica, sans-serif; padding: 5px; text-align: center;">Grass Cutting Services</h1>
+    <h3 style="font-family: Helvetica, sans-serif; text-align: center;"> We provide landscaping services at low prices. Get your lawn mowed with us for free as a thank you gift!</h3>
+</div>
+
+<!-- other text --> 
+
+ <section>
+        <h2>Why Choose Our Grass Cutting Services?</h2>
+        <ul style="list-style-type: none; padding: 0; padding: 10px; border-radius: 5px;">
+            <li>Experienced and reliable team.</li>
+            <li>Competitive and affordable prices.</li>
+            <li>Free initial lawn mowing for new clients.</li>
+            <li>Meticulous attention to detail in every job.</li>
+            <li>Your satisfaction is our top priority.</li>
+        </ul>
+    </section>
+    
+    <!-- bio, seperated with blue so it pops out on the page -->
+    
+    <section style="background-color: #e0f2f7; padding: 20px; border-radius: 8px; margin-top: 20px;">
+    <h2>About Our Team</h2>
+    <div style="display: flex; align-items: center;">
+        <img src="https://assets.onecompiler.app/43e8whwtk/43e8wgypy/crew.png" alt="Team Photo Placeholder" style="width: 110px; height: 100px; border-radius: 50%; margin-right: 20px;">
+        <div>
+            <p style="font-style: italic; color: #555;">"At Grass Cutting Services, we're passionate about creating beautiful and well-maintained outdoor spaces. Our dedicated team brings years of experience and a commitment to providing top-notch service with a friendly touch."</p>
+            <p>G.C.S Has been in business for over ten years. With that experience, we have gained a lot of leverage about how landscaping works. Trust us to trim your lawn right.</p>
+        </div>
+    </div>
+</section>
+    
+    <!-- fake testimonials -->
+    
+ <section style="overflow: hidden; position: relative;">
+    <h2>What Our Happy Customers Say</h2>
+    <div id="testimonials-container" style="overflow-x: auto; white-space: nowrap; padding-bottom: 15px;">
+        <ul id="testimonials-list" style="list-style-type: none; padding: 0; margin: 0; display: inline-block;">
+            <li style="display: inline-block; margin-right: 20px; background-color: #f0fff0; border: 0px solid #ccc; padding: 15px; border-radius: 5px; width: 50%; text-align: center;">
+                <blockquote>
+                    <p>"Grass Cutting Services always does an amazing job! My lawn has never looked so neat and healthy. Highly recommend their reliable and friendly service."</p>
+                    <footer>- Sarah M.</footer>
+                </blockquote>
+            </li>
+            <li style="display: inline-block; margin-right: 20px; background-color: #f0fff0; border: 0px solid #ccc; padding: 15px; border-radius: 5px; width: 50%; text-align: center;">
+                <blockquote>
+                    <p>"I signed up for the 'Suite Services' package and it's been a game-changer. They handle everything, and my yard is the envy of the neighborhood!"</p>
+                    <footer>- John B.</footer>
+                </blockquote>
+            </li>
+            <li style="display: inline-block; margin-right: 20px; background-color: #f0fff0; border: 0px solid #ccc; padding: 15px; border-radius: 5px; width: 50%; text-align: center;">
+                <blockquote>
+                    <p>"The free first mow was a great bonus! I was so impressed with their professionalism and the quality of their work. I'm a customer for life."</p>
+                    <footer>- Emily K.</footer>
+                </blockquote>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<!-- Services bar -->
+
+<H2> Our Services: </H2>
+     <ul style="list-style-type: none; padding: 0; background-color: #f0fff0; padding: 10px; border-radius: 5px;">
+        <li>Lawn Mowing - $50</li>
+        <li>Hedge Trimming - $10 per hedge</li>
+        <li>Suite Services - $60 </li>
+    </ul>
+<h6 style="text-align: center; color: gray; font-size: 0.8em; margin-top: 20px; padding: 10px; border-top: 1px solid #ccc;">This is a fake website, obviously. We are not a real company.</h6>
+
+<!-- Javascript for banner display -->
+
+<script>
+        const banner = document.querySelector('img[alt="Banner"]');
+        if (banner) {
+            setTimeout(() => {
+                banner.style.opacity = '1';
+                banner.style.transition = 'opacity 1s ease-in-out';
+            }, 500); // 500 milliseconds (0.5 seconds) delay
+        }
+    </script>
+
+<!-- Javascript for automatic scroll -->
+
+<script>
+const testimonialsContainer = document.getElementById('testimonials-container');
+const testimonialsList = document.getElementById('testimonials-list');
+const testimonials = testimonialsList ? testimonialsList.children : [];
+let currentIndex = 0;
+const scrollIntervalTime = 3000; // Time between scrolls in milliseconds (3 seconds)
+let scrollInterval;
+
+function scrollToNextTestimonial() {
+    if (testimonialsContainer && testimonials.length > 0) {
+        currentIndex = (currentIndex + 1) % testimonials.length;
+        testimonialsContainer.scrollTo({
+            left: testimonials[currentIndex].offsetLeft,
+            behavior: 'smooth'
+        });
+    }
+}
+
+function startAutoScroll() {
+    scrollInterval = setInterval(scrollToNextTestimonial, scrollIntervalTime);
+}
+
+function stopAutoScroll() {
+    clearInterval(scrollInterval);
+}
+
+if (testimonialsContainer && testimonials.length > 0) {
+    startAutoScroll();
+
+    testimonialsContainer.addEventListener('mouseenter', stopAutoScroll);
+    testimonialsContainer.addEventListener('mouseleave', startAutoScroll);
+}
+
+</script>
+</body>
