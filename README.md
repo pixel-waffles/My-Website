@@ -7,6 +7,6 @@ It includes custom-built features like custom JavaScript functions and cool inte
 ## Important Notice
 This project is intended solely for hiring and portfolio review purposes.
 
-**All code and content are the intellectual property of  and may not be used, copied, or distributed without permission.**
+**All code and content are the intellectual property of Jendayi, iNverTed, ThatHorribleAuthor, and variants of the name, pixel-waffles, and other affiliated online aliases, and may not be used, copied, or distributed without permission.**
 
 
